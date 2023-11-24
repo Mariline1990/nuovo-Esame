@@ -1,0 +1,233 @@
+html{
+    font-size: 16px;
+    font-weight: 20px;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+header{
+    width: 100%vh;
+    height: 500px;
+    background-color: #ecc640;
+    border-bottom: solid 1px black;
+    
+
+}
+
+.navPosition{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 70px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 15px;
+    width: 100%vh;
+    height: 50px;
+    background-color: #ecc640;
+    border-bottom: solid 1px black;
+    position: sticky;
+}
+.linkNav{
+    margin-inline: 10px;
+    color: black;
+}
+.blackButton{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    
+}
+#logo{
+    padding-top: 5px;
+}
+
+.header{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+.onlyP{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    font-size: 1.5rem;
+    line-height: 1em;
+}
+.titles p {
+    
+}
+.title{
+    font-size:5rem ;
+    line-height: 1.5em;
+
+} 
+.blackButton2{
+    width: 210px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-block: 40px;
+    background-color: black;
+    font-size:1em;
+    color: white;
+}
+.sectionOne{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    border-bottom: solid 1px rgb(201, 192, 192);
+    
+    
+}
+
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+.containerArticles{
+    margin-top: 20px;
+    width: 300px;
+}
+
+
+.numbersAndText{
+    width: 285px;
+    height: 110px;
+    display: flex;
+    justify-content:  space-between;
+    
+   
+}
+.logoAutors{
+    display: flex;
+    align-items: center;
+}
+
+.numbers{
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #f2f2f2 ;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.columnText{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   
+}
+
+.columnTextTwo p{
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+.columnTextTwo h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.columnText h3{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.columnText p{
+    font-size: 0.9rem;
+}
+
+.grayText{
+    color: gray;
+    
+}
+.logoAutors img{
+    padding-right:5px ;
+}
+.containerTreding{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 20%;
+    
+
+}
+.trending{
+    display: flex;
+    align-items: center;
+}
+
+article{
+   
+    display: flex;
+    justify-content: center;
+}
+
+/*  ----------------*/
+
+.sectionTwo{
+    display: flex;
+    justify-content: flex-start;
+    width: 65%;
+}
+
+.containerColumnOne{
+    display: flex;
+    justify-content: flex-start;
+    width: 900px;
+
+}
+
+.containerColumntwo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containerArticlesTwo{
+    display: flex;
+
+  
+}
+.numbersAndTextTwo{
+    width: 540px;
+}
+.buttongray{
+    border-radius: 20px;
+    padding-inline: 10px;
+    margin: 5px;
+    border: none;
+}
